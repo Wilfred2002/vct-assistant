@@ -1,7 +1,12 @@
+// app/page.tsx
 
+import Chat from "./components/chat";
 
 export default function Home() {
   return (
-    <h1>Hello VCT!</h1>
+    <div>
+      <h1>Hi VCT</h1>
+      <Chat /> 
+    </div>
   );
 }
